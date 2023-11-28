@@ -6,7 +6,7 @@ controllTD.addEventListener('input', (event) => {
 }, false);
 
 ws.addEventListener('open', (event) => {
-  console.log('Socket connection open');
+  console.log('Socket connection open!');
   // alert('Successfully connected to socket server 🎉');
   ws.send('pong');
 });
