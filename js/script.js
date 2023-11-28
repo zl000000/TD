@@ -8,7 +8,7 @@ controllTD.addEventListener('input', (event) => {
 let controlledByTD = document.querySelector('.controlledByTD');
 
 ws.addEventListener('open', (event) => {
-  console.log('Socket connection open');
+  console.log('Socket connection open_');
   // alert('Successfully connected to socket server 🎉');
   ws.send('pong');
 });
